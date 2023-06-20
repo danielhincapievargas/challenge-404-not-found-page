@@ -1,60 +1,87 @@
-# Make It Real - 404 Not Found Page
+# Make It Real - Challenge 404 Not Found Page
 
-<img src="./design/desktop-preview.jpg" width="700">
+This is a solution to the challenge 404 Not Found Page project of the Make It Real course.
 
-## Reto
+## Table of contents
 
-Su desafío es construir una pagina 404 responsive y lograr que se parezca lo más posible al diseño.
+- [Overview](#overview)
+  - [The challenge](#Errorpage404)
+  - [Screenshot](#screenshot)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-Puedes usar cualquier herramienta que te guste para ayudarte a completar el desafío. Entonces, si tienes algo que te gustaría practicar, no dudes en intentarlo.
 
-Sus usuarios deberían poder:
+## Overview
 
-- Ver el diseño óptimo según el tamaño de pantalla de su dispositivo
+### The challenge
 
-## Diseño
+Users should be able to:
 
-Los diseños están en formato JPG estático. El uso de archivos JPG significará que deberá usar su mejor criterio para estilos como "tamaño de fuente", "padding" y "margen".
+- Build a 404 error page.
+- Apply Mobile First approach to make the page responsive.
 
-### Style Guide
+### Screenshot
+MOBILE FIRST
+![](./assets/404Mobile.jpg)
 
-Los diseños se crearon con los siguientes anchos:
+LAPTOP
+![](./assets/404Laptop.jpg)
 
-- Mobile: 375px
-- Desktop: 1440px
 
-## Colores
 
-### Primary
 
-- Black: #333333
-- Gray2: #4F4F4F
+## My process
 
-## Tipografía
+### Built with
 
-### Body Copy
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
 
-- Font size: 24px/18px
+### What I learned
 
-### Font
+We learned how to apply font styles using Google Fonts.
 
-- Family: [Space Mono](https://fonts.google.com/specimen/Space+Mono)
-- Weights: 500
 
-## Construyendo tu proyecto
+```html
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz@9..144&family=Inter:wght@300;500&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Space+Mono:wght@400;700&family=Special+Elite&display=swap" rel="stylesheet">
+```
 
-Siéntase libre de usar cualquier flujo de trabajo con el que se sienta cómodo. A continuación se sugiere un proceso, pero no sienta que necesita seguir estos pasos:
+We learned how to use flexbox to change the orientation of containers.
 
-1. Inicializa tu proyecto como repositorio público en [GitHub](https://github.com/). La creación de un repositorio hará que sea más fácil compartir su código con la comunidad si necesita ayuda. Si no está seguro de cómo hacer esto, [lea este recurso](https://guias.makeitreal.camp/git) .
-2. Mire los diseños para comenzar a planificar cómo abordará el proyecto. Este paso es crucial para ayudarlo a pensar con anticipación en las clases de CSS para crear estilos reutilizables.
-3. Antes de agregar estilos, estructura tu contenido con HTML. Escribir tu HTML primero puede ayudar a centrar tu atención en crear contenido bien estructurado.
-4. Escriba los estilos base para su proyecto, incluidos los estilos de contenido general, como `font-family` y `font-size`.
-5. Comience a agregar estilos en la parte superior de la página y siga hacia abajo. Pase a la siguiente sección solo cuando esté satisfecho de haber completado el área en la que está trabajando.
+```css
+.main-container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+```
 
-## Crea un `README.md` personalizado
 
-Recomendamos encarecidamente sobrescribir este `README.md` con uno personalizado. Proporcionamos una plantilla dentro del archivo [`README-template.md`](./README-template.md) en este código de inicio.
 
-La plantilla proporciona una guía sobre qué agregar. Un `README` personalizado lo ayudará a explicar su proyecto y reflexionar sobre sus aprendizajes. Por favor, siéntete libre de editar nuestra plantilla tanto como quieras.
+### Continued development
 
-**¡Diviértete construyendo!** 🚀
+
+The topics where we encountered the most difficulties were:
+
+- Flexbox: Although we used it for container positioning, we found it challenging to use justification effectively.
+
+- Image handling: We struggled with controlling the image's shape when resizing for different devices.
+
+### Useful resources
+
+- [resource 1](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - 
+This page helped us discover some flexbox resources.
+
+## Author
+
+- Website - [Juan Camilo Clement y Daniel Hincapié](git@github.com:danielhincapievargas/challenge-404-not-found-page.git)
+
